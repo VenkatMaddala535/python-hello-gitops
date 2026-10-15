@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: python-hello
-          image: venkatmaddala/python-hello:latest
+          image: venkatmaddala/python-hello:9
           ports:
             - containerPort: 5001
           imagePullPolicy: Always
